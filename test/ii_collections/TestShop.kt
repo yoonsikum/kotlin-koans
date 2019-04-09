@@ -63,6 +63,7 @@ val shop = shop("jb test shop",
 
 )
 
+//TODO 이해안감....
 val customers: Map<String, Customer> = shop.customers.fold(hashMapOf(), { map, customer ->
     map[customer.name] = customer
     map
@@ -72,6 +73,7 @@ val orderedProducts = setOf(idea, reSharper, dotTrace, dotMemory, rubyMine, webS
 
 val sortedCustomers = listOf(cooper, nathan, bajram, asuka, lucas, riku, reka).map { customers[it] }
 
+//TODO 이해안감....
 val groupedByCities = mapOf(
     Canberra to listOf(lucas, cooper),
     Vancouver to listOf(nathan),
