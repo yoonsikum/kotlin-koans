@@ -1,5 +1,6 @@
 package iii_conventions.multiAssignemnt
 
+import iii_conventions.MyDate
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test

@@ -12,6 +12,7 @@ class N31InvokeKtTest {
     @Test
     fun testNumberOfInvocations() {
         val message = "The number of invocations is incorrect"
+        //TODO 어렵네 이거
         fun testInvokable(numberOfInvocations: Int, invokeSeveralTimes: (Invokable) -> Invokable) {
             val invokable = Invokable()
             assertEquals(numberOfInvocations, invokeSeveralTimes(invokable).getNumberOfInvocations(), message)
